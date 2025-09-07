@@ -2,23 +2,21 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import Home from "@/pages/Home";
 // import About from "@/pages/About";
 import Navbar from "./components/Navbar";
+import Dashboard from "./pages/Dashboard";
+import Dashboard_User from "./pages/Dashboard_User";
 
 export default function App() {
     return (
         <Router>
-            <div>
-                {/* <nav className="flex gap-4 mb-4">
-                    <Link to="/" className="text-blue-500">
-                        Home
-                    </Link>
-                    <Link to="/about" className="text-blue-500">
-                        About
-                    </Link>
-                </nav> */}
-                <Routes>
-                    
-                    <Route path="/navbar" element={<Navbar />} />
-                </Routes>
+            <div className="bg-[#B8CEFE] min-h-screen">
+                <Navbar />
+                <div className="px-20 py-10">
+                    <Routes >
+                        <Route path="/dashboard_admin" element={<Dashboard />} />
+                        <Route path="/dashboard_user" element={<Dashboard_User />} />
+                    </Routes>
+                </div>
+                
             </div>
         </Router>
     );
