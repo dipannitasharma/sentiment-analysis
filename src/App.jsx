@@ -8,7 +8,7 @@ import Dashboard_User from "./pages/Dashboard_User";
 export default function App() {
     return (
         <Router>
-            <div className="bg-[#B8CEFE] min-h-screen">
+            <div className="font-poppins">
                 <Navbar />
                 <div className="px-20 py-10">
                     <Routes >

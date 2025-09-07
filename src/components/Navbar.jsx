@@ -1,36 +1,27 @@
 import React from 'react'
-
+import { UserRound, PenLine } from 'lucide-react';
 const Navbar = () => {
   return (
-      <nav className="w-screen  bg-white border-b border-black shadow-xl shadow-gray-500/15 flex items-center justify-between px-6 py-3">
-          <div class="text-lg font-bold text-black">
-              MCA&apos; <span className="text-[#002aff] font-black text-xl">25</span>
-          </div>
+    <nav className="w-screen  bg-white border-b border-black shadow-xl shadow-gray-500/15 flex items-center justify-between px-6 py-3">
 
-          <div className="flex items-center space-x-4 p-0">
-              <button className="bg-red-600 border-1 border-[#647EFF] text-white text-sm font-semibold px-4 py-2 rounded-3xl">
-                  LOG OUT
-              </button>
+      <div className='flex items-center gap-2 space-x-4 p-0'>
+        <div class=" font-bold text-black text-3xl">
+          MCA&apos; <sup className="text-[#002aff] font-black text-lg">25</sup>
+        </div>
+        <div className="flex items-center space-x-4 p-0">
+          <button className='bg-[#42a146] rounded-md p-2 text-white flex gap-2  font-bold' >Create New Draft <PenLine size={20}/></button>
+        </div>
+      </div>
 
-              <div className="w-9 h-9 border-1 border-[#647EFF] bg-[#B8CEFE] flex items-center justify-center rounded-full  ">
-                  <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-15 w-15 text-black-600"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="1"
-                  >
-                      <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4
-          1.79-4 4 1.79 4 4 4zM6 20c0-3.314 2.686-6 6-6s6 2.686 6 6"
-                      />
-                  </svg>
-              </div>
-          </div>
-      </nav>
+      <div className="flex items-center space-x-4 p-0">
+        <button className="bg-red-600 border-1 border-[#647EFF] text-white text-sm font-semibold px-4 py-2 rounded-3xl">
+          LOG OUT
+        </button>
+
+        
+        <UserRound size={40} className='bg-[#B8CEFE] rounded-full p-1 border' />
+      </div>
+    </nav>
   );
 }
 
