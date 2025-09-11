@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 export default function App() {
     return (
         <Router>
-            <div className="font-poppins">
+            <div className="font-poppins ">
                 <Navbar />
                 <div className="px-20 py-10">
                     <Routes>
