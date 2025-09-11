@@ -8,14 +8,9 @@ const LatestDraft = ({
 }) => {
     return (
         <div className="w-full">
-<<<<<<< HEAD
-            <div className=" flex justify-between items-top mb-1 mx-5 ">
-                <h1 className=" font-black text-2xl uppercase text-[#2b6bf6]">
-=======
             {/* Heading */}
             <div className="flex justify-between items-center mb-3 mx-5">
                 <h1 className="font-black text-2xl uppercase text-[#2b6bf6]">
->>>>>>> febb2bfc7368fc5290f713c4d2df23fc2a03e18c
                     Latest Draft
                 </h1>
             </div>
