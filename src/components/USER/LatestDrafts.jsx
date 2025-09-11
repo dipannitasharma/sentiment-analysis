@@ -4,17 +4,18 @@ import { CircleCheckBig, ChevronRight, Clock, ChevronLeft } from "lucide-react";
 const LatestDraft = ({
     title = "Digital Data Protection and Privacy Bill, 2025",
     author = "John Doe",
-    description = "This draft bill proposes guidelines for secure collection, storage, and usage of personal data by companies and government bodies. It emphasizes user consent, data minimization, and stricter penalties for misuse. The bill seeks to balance innovation in digital services with the protection of citizens' privacy rights",
+    description = "This draft bill proposes guidelines for secure collection, storage, and usage of personal data by companies and government bodies. It emphasizes user consent, data minimization, and stricter penalties for misuse. The bill seeks to balance innovation in digital services with the protection of citizens' privacy rights. This draft bill proposes guidelines for secure collection, storage, and usage of personal data by companies and government bodies. It emphasizes user consent, data minimization, and stricter penalties for misuse. The bill seeks to balance innovation in digital services with the protection of citizens' privacy rights. This draft bill proposes guidelines for secure collection, storage, and usage of personal data by companies and government bodies. It emphasizes user consent, data minimization, and stricter penalties for misuse. The bill seeks to balance innovation in digital services with the protection of citizens' privacy rights. This draft bill proposes guidelines for secure collection, storage, and usage of personal data by companies and government bodies. It emphasizes user consent, data minimization, and stricter penalties for misuse. The bill seeks to balance innovation in digital services with the protection of citizens' privacy rights. This draft bill proposes guidelines for secure collection, storage, and usage of personal data by companies and government bodies. It emphasizes user consent, data minimization, and stricter penalties for misuse. The bill seeks to balance innovation in digital services with the protection of citizens' privacy rights",
+    
 
     done = true,
 }) => {
     return (
         <div className="w-full">
-            <div className=" flex justify-between items-center ">
-                <h1 className="ml-5 mb-3 font-black text-2xl uppercase text-[#2b6bf6]">
+            <div className=" flex justify-between items-center mb-1 mx-5 ">
+                <h1 className=" font-black text-2xl uppercase text-[#2b6bf6]">
                     Latest Draft
                 </h1>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 py-2">
                     <button className="flex items-center gap-2 bg-white rounded-full border px-2 py-2 font-bold text-black   transition"><ChevronLeft /></button>
                     <button className="flex items-center gap-2 bg-white rounded-full border px-2 py-2 font-bold text-black   transition"><ChevronRight /></button>
                 </div>
