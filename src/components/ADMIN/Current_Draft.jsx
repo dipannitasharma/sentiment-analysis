@@ -13,7 +13,7 @@ const Current_Draft = ({
                 Current Draft
             </h1>
 
-            <div className="flex flex-col gap-4 rounded-2xl border border-black/50 bg-[#d9d9d9] p-4">
+            <div className="flex flex-col gap-4 rounded-2xl border border-black/50 bg-[#e5ecff] p-4">
                 {/* Header with title + status */}
                 <div className="flex items-center gap-3">
                     <div className="flex-1 rounded-md border bg-white px-5 py-4 font-bold uppercase text-lg">

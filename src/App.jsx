@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Dashboard from "./pages/Dashboard";
 import Dashboard_User from "./pages/Dashboard_User";
 import Footer from "./components/Footer";
+import CommentExplorer from "./pages/CommentExplorer";
+import Dashboard_Admin from "./pages/Dashboard_Admin";
 
 export default function App() {
     return (
@@ -13,11 +14,15 @@ export default function App() {
                     <Routes>
                         <Route
                             path="/dashboard-admin"
-                            element={<Dashboard />}
+                            element={<Dashboard_Admin />}
                         />
                         <Route
                             path="/dashboard-user"
                             element={<Dashboard_User />}
+                        />
+                        <Route
+                            path="/dashboard-admin/:slug"
+                            element={<CommentExplorer  />}
                         />
                     </Routes>
                 </div>

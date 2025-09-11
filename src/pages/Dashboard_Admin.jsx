@@ -1,9 +1,9 @@
-//for organisers
+//for admin dashboard
 import Current_Draft from '@/components/ADMIN/Current_Draft'
 import Your_Draft from '@/components/ADMIN/Your_Draft'
 import React from 'react'
 
-const Dashboard = () => {
+const Dashboard_Admin = () => {
     return (
         <div className='grid grid-cols-2 gap-4 h-fit'>
             <Current_Draft />
@@ -13,4 +13,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+export default Dashboard_Admin
