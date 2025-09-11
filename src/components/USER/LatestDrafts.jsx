@@ -11,7 +11,7 @@ const LatestDraft = ({
 }) => {
     return (
         <div className="w-full">
-            <div className=" flex justify-between items-center mb-1 mx-5 ">
+            <div className=" flex justify-between items-top mb-1 mx-5 ">
                 <h1 className=" font-black text-2xl uppercase text-[#2b6bf6]">
                     Latest Draft
                 </h1>

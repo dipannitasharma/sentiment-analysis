@@ -4,6 +4,8 @@ import Dashboard_User from "./pages/Dashboard_User";
 import Footer from "./components/Footer";
 import CommentExplorer from "./pages/CommentExplorer";
 import Dashboard_Admin from "./pages/Dashboard_Admin";
+import CommentUploader from "./pages/CommentUploader";
+import CreateNewDraft from "./pages/CreateNewDraft";
 
 export default function App() {
     return (
@@ -23,6 +25,14 @@ export default function App() {
                         <Route
                             path="/dashboard-admin/:slug"
                             element={<CommentExplorer  />}
+                        />
+                        <Route
+                            path="/dashboard-user/:slug"
+                            element={<CommentUploader />}
+                        />
+                        <Route
+                            path="/new"
+                            element={<CreateNewDraft />}
                         />
                     </Routes>
                 </div>
