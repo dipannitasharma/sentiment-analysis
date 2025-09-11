@@ -69,7 +69,7 @@ const AvailableDrafts = () => {
         <div className="flex h-screen flex-col">
             {/* Header fixed at top */}
             <h1 className="ml-5 mb-3 font-black text-2xl uppercase text-[#2b6bf6]">
-                Availb Drafts
+                Available Drafts
             </h1>
 
             {/* Scrollable drafts area */}
