@@ -1,0 +1,117 @@
+{
+    "status": "success",
+    "data": {
+        "drafts": [
+            {
+                "id": 3,
+                "title": "National Cybersecurity Strategy Draft 2025",
+                "author": {
+                    "id": 103,
+                    "name": "Dr. Emily Carter",
+                    "role": "Cybersecurity Expert"
+                },
+                "description": "This strategy draft focuses on strengthening the nation's cyber defense posture by introducing mandatory breach disclosure rules, encouraging public-private collaboration, and setting up a national incident response task force.",
+                "status": "in_review",
+                "tags": ["cybersecurity", "policy", "strategy"],
+                "version": 2,
+                "created_at": "2025-06-20T09:00:00Z",
+                "updated_at": "2025-09-05T14:15:00Z",
+                "review_deadline": "2025-09-22T23:59:59Z",
+                "upvotes": 98,
+                "downvotes": 12,
+                "comments_count": 22,
+                "links": {
+                    "detail_page": "/dashboard-user/national-cybersecurity-strategy-2025"
+                }
+            },
+            {
+                "id": 4,
+                "title": "Green Tech Subsidy Policy Draft",
+                "author": {
+                    "id": 104,
+                    "name": "Raj Patel",
+                    "role": "Environmental Policy Advisor"
+                },
+                "description": "This policy draft proposes tax incentives and subsidies for companies investing in green technologies such as renewable energy, carbon capture, and sustainable manufacturing practices.",
+                "status": "approved",
+                "tags": ["environment", "green tech", "policy"],
+                "version": 5,
+                "created_at": "2025-05-12T11:45:00Z",
+                "updated_at": "2025-08-28T10:20:00Z",
+                "review_deadline": "2025-09-15T23:59:59Z",
+                "upvotes": 210,
+                "downvotes": 5,
+                "comments_count": 40,
+                "links": {
+                    "detail_page": "/dashboard-user/green-tech-subsidy-policy"
+                }
+            },
+            {
+                "id": 5,
+                "title": "Digital Healthcare Records Interoperability Draft",
+                "author": {
+                    "id": 105,
+                    "name": "Sophia Nguyen",
+                    "role": "Health Data Specialist"
+                },
+                "description": "This draft bill introduces a framework for interoperable healthcare records across hospitals and clinics, ensuring secure patient data exchange and compliance with privacy regulations.",
+                "status": "draft",
+                "tags": ["healthcare", "data", "interoperability"],
+                "version": 1,
+                "created_at": "2025-08-05T15:00:00Z",
+                "updated_at": "2025-08-18T09:45:00Z",
+                "review_deadline": "2025-09-27T23:59:59Z",
+                "upvotes": 65,
+                "downvotes": 9,
+                "comments_count": 13,
+                "links": {
+                    "detail_page": "/dashboard-user/digital-healthcare-records-interoperability"
+                }
+            },
+            {
+                "id": 6,
+                "title": "National EdTech Guidelines Draft",
+                "author": {
+                    "id": 106,
+                    "name": "Carlos Mendes",
+                    "role": "Education Policy Specialist"
+                },
+                "description": "This draft sets ethical and technical guidelines for the use of EdTech platforms in public schools, including data protection for students, equitable access, and quality control standards.",
+                "status": "in_review",
+                "tags": ["education", "technology", "policy"],
+                "version": 3,
+                "created_at": "2025-07-22T13:10:00Z",
+                "updated_at": "2025-09-09T16:30:00Z",
+                "review_deadline": "2025-09-29T23:59:59Z",
+                "upvotes": 142,
+                "downvotes": 4,
+                "comments_count": 19,
+                "links": {
+                    "detail_page": "/dashboard-user/national-edtech-guidelines"
+                }
+            },
+            {
+                "id": 7,
+                "title": "Public Transportation Electrification Roadmap",
+                "author": {
+                    "id": 107,
+                    "name": "Linda Fischer",
+                    "role": "Urban Mobility Expert"
+                },
+                "description": "This roadmap draft details a phased transition to electric public transport fleets in major cities, funding models, and infrastructure development timelines.",
+                "status": "draft",
+                "tags": ["transportation", "sustainability", "infrastructure"],
+                "version": 1,
+                "created_at": "2025-06-15T07:50:00Z",
+                "updated_at": "2025-07-05T12:00:00Z",
+                "review_deadline": "2025-09-30T23:59:59Z",
+                "upvotes": 88,
+                "downvotes": 11,
+                "comments_count": 8,
+                "links": {
+                    "detail_page": "/dashboard-user/public-transportation-electrification"
+                }
+            }
+        ]
+    }
+}
