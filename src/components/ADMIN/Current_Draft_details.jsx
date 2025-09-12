@@ -16,16 +16,6 @@ const Current_Draft_details = ({
                     <div className="flex-1 rounded-md border bg-white px-5 py-4 w-fit font-bold uppercase text-lg">
                         {title}
                     </div>
-                    {/* <div className="rounded-md border bg-white p-3">
-                        {done ? (
-                            <CircleCheckBig
-                                size={36}
-                                className="text-green-600"
-                            />
-                        ) : (
-                            <Clock size={36} className="text-red-600" />
-                        )}
-                    </div> */}
                 </div>
 
                 {/* Description */}
