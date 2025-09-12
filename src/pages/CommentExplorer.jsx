@@ -1,15 +1,15 @@
 import Comments from '@/components/ADMIN/Comments';
-import Current_Draft_details from '@/components/ADMIN/Current_Draft_details';
+import DraftDetails from '@/components/ADMIN/Current_Draft_details';
 import React from 'react'
 import { useParams } from 'react-router-dom';
 const CommentExplorer = () => {
   const { slug } = useParams();
   return (
-    
+
       <div className='grid grid-cols-2 gap-4 h-fit'>
-        <Current_Draft_details />
+      <DraftDetails id={slug} />
       {/* <Your_Draft /> */}
-      <Comments />
+      <Comments id={slug} />
       </div>
 
   );

@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "name": "Amitav Roy",
+    "role": "Admin",
+    "age": 38,
+    "dob": "1986-01-22",
+    "email": "amitav.roy@example.com",
+    "phone": "+1-555-987-6543",
+    "organization": "Acme Corp",
+    "department": "Content Management",
+    "address": {
+        "street": "456 Market St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94107",
+        "country": "USA"
+    },
+    "responsibilities": [
+        "Posting Drafts",
+        "Moderating Content",
+        "User Management"
+    ],
+    "adminType": "Super Admin",
+    "activityLevel": "Active",
+    "draftsPosted": 12,
+    "notes": "Posts drafts for users to review and manages content workflow."
+}

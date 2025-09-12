@@ -1,0 +1,136 @@
+{
+    "comments": [
+        {
+            "id": 21,
+            "comments": [
+                {
+                    "comment_id": "21-1",
+                    "author": "User 1",
+                    "author_id": 1,
+                    "timestamp": "2025-09-12T14:40:16.174023Z",
+                    "text": "I think this draft finally nails the tone — good job!"
+                },
+                {
+                    "comment_id": "21-2",
+                    "author": "User 2",
+                    "author_id": 2,
+                    "timestamp": "2025-09-12T14:41:02.982013Z",
+                    "text": "This section still feels a bit rushed. Could you expand it?"
+                },
+                {
+                    "comment_id": "21-3",
+                    "author": "User 3",
+                    "author_id": 3,
+                    "timestamp": "2025-09-12T14:41:45.004531Z",
+                    "text": "Nice improvement over draft 20, especially in the intro."
+                },
+                {
+                    "comment_id": "21-4",
+                    "author": "User 4",
+                    "author_id": 4,
+                    "timestamp": "2025-09-12T14:42:10.334823Z",
+                    "text": "Good flow, but the conclusion still needs a stronger call to action."
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "comments": [
+                {
+                    "comment_id": "20-1",
+                    "author": "User 1",
+                    "author_id": 1,
+                    "timestamp": "2025-09-12T14:35:20.991134Z",
+                    "text": "Feels too wordy — try tightening up the middle section."
+                },
+                {
+                    "comment_id": "20-2",
+                    "author": "User 2",
+                    "author_id": 2,
+                    "timestamp": "2025-09-12T14:36:10.884321Z",
+                    "text": "Love the examples you added here!"
+                },
+                {
+                    "comment_id": "20-3",
+                    "author": "User 3",
+                    "author_id": 3,
+                    "timestamp": "2025-09-12T14:36:50.567842Z",
+                    "text": "There's a small typo in paragraph two — 'affect' should be 'effect'."
+                },
+                {
+                    "comment_id": "20-4",
+                    "author": "User 4",
+                    "author_id": 4,
+                    "timestamp": "2025-09-12T14:37:33.882313Z",
+                    "text": "Not bad, but still missing that hook at the start."
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "comments": [
+                {
+                    "comment_id": "19-1",
+                    "author": "User 1",
+                    "author_id": 1,
+                    "timestamp": "2025-09-12T14:28:10.432432Z",
+                    "text": "Better than draft 18 but still a little dry."
+                },
+                {
+                    "comment_id": "19-2",
+                    "author": "User 2",
+                    "author_id": 2,
+                    "timestamp": "2025-09-12T14:29:00.112340Z",
+                    "text": "Consider adding a quote to support your main point."
+                },
+                {
+                    "comment_id": "19-3",
+                    "author": "User 3",
+                    "author_id": 3,
+                    "timestamp": "2025-09-12T14:29:45.223444Z",
+                    "text": "Formatting is much clearer now, keep that!"
+                },
+                {
+                    "comment_id": "19-4",
+                    "author": "User 4",
+                    "author_id": 4,
+                    "timestamp": "2025-09-12T14:30:22.981234Z",
+                    "text": "Still feels like you're repeating the same point twice."
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "comments": [
+                {
+                    "comment_id": "18-1",
+                    "author": "User 1",
+                    "author_id": 1,
+                    "timestamp": "2025-09-12T14:22:02.324534Z",
+                    "text": "Opening paragraph is much stronger now."
+                },
+                {
+                    "comment_id": "18-2",
+                    "author": "User 2",
+                    "author_id": 2,
+                    "timestamp": "2025-09-12T14:23:10.443200Z",
+                    "text": "Could you break up that long sentence in section 2?"
+                },
+                {
+                    "comment_id": "18-3",
+                    "author": "User 3",
+                    "author_id": 3,
+                    "timestamp": "2025-09-12T14:23:58.120043Z",
+                    "text": "Nice job tightening the wording here."
+                },
+                {
+                    "comment_id": "18-4",
+                    "author": "User 4",
+                    "author_id": 4,
+                    "timestamp": "2025-09-12T14:24:30.874302Z",
+                    "text": "The last line feels abrupt — maybe soften it a bit."
+                }
+            ]
+        }
+    ]
+}

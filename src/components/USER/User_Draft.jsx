@@ -72,7 +72,7 @@ const User_Draft = ({
                 </div>
 
                 {/* Description (clamped to 2 lines) */}
-                <p className="rounded-md border bg-white px-3 py-2 text-sm leading-snug line-clamp-2">
+                <p className="rounded-md border bg-white p-1 text-sm leading-snug line-clamp-2">
                     {description}
                 </p>
 
