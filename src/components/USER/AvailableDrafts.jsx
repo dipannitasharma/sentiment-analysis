@@ -1,10 +1,6 @@
 import React, { useMemo } from "react";
 import User_Draft from "./User_Draft";
-<<<<<<< HEAD
-import { Funnel } from "lucide-react";
-=======
 import draftsData from "@/data/drafts.json";
->>>>>>> 22582f54a350c1211defe1fe9e8b6b457cd95347
 
 const AvailableDrafts = () => {
     // Same filtering logic as LatestDraft to stay consistent
@@ -25,19 +21,11 @@ const AvailableDrafts = () => {
     return (
         <div className="flex h-screen flex-col">
             {/* Header fixed at top */}
-            <div >
-                <h1 className="ml-5 mb-3 font-black text-2xl uppercase text-[#2b6bf6]">
-                    Available Drafts
-                </h1>
-                <Funnel />
+            <h1 className="ml-5 mb-3 font-black text-2xl uppercase text-[#2b6bf6]">
+                Available Drafts
+            </h1>
 
-<<<<<<< HEAD
-
-            </div>
-            {/* Scrollable drafts area */}
-=======
             {/* Scrollable list */}
->>>>>>> 22582f54a350c1211defe1fe9e8b6b457cd95347
             <div className="flex-1 overflow-y-auto pr-2">
                 <div className="flex flex-col gap-2">
                     {drafts.map((draft) => (

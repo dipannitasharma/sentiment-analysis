@@ -137,19 +137,14 @@ const LatestDraft = () => {
 
                 {/* Action button */}
                 <div className="flex justify-center">
-<<<<<<< HEAD
-                    <Link to="/dashboard-user/:slug">
-                        <button className="flex items-center w-full justify-center gap-2 rounded-md bg-[#42a146] px-4 py-2 font-bold text-white hover:bg-[#368838] transition">
-=======
                     <Link to={draft.id ? `/dashboard-user/${draft.id}` : "#"}>
-                        <button className="flex items-center min-w-[80%] justify-center gap-2 rounded-md bg-[#42a146] px-4 py-2 font-bold text-white hover:bg-[#368838] transition">
->>>>>>> 22582f54a350c1211defe1fe9e8b6b457cd95347
-                            Check Out <ChevronRight size={18} />
-                        </button>
-                    </Link>
-                </div>
+                    <button className="flex items-center min-w-[80%] justify-center gap-2 rounded-md bg-[#42a146] px-4 py-2 font-bold text-white hover:bg-[#368838] transition">
+                        Check Out <ChevronRight size={18} />
+                    </button>
+                </Link>
             </div>
         </div>
+        </div >
     );
 };
 
