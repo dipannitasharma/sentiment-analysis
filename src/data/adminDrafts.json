@@ -7,8 +7,8 @@
                 "title": "AI-Powered Content Moderation Policy Draft",
                 "author": {
                     "id": 1,
-                    "name": "Amitav Roy",
-                    "role": "Super Admin"
+                    "name": "Raunak Manna",
+                    "role": "Admin"
                 },
                 "description": "This draft introduces AI-assisted content moderation to flag inappropriate content faster, reduce moderator workload, and maintain community standards without compromising free speech.",
                 "status": "in_review",
@@ -24,25 +24,29 @@
                     {
                         "id": 1,
                         "text": "Does this policy strike the right balance between automation and human review?",
-                        "options": ["Yes", "No", "Partially"]
+                        "options": [
+                            { "label": "Yes", "votes": 120 },
+                            { "label": "No", "votes": 20 },
+                            { "label": "Partially", "votes": 45 }
+                        ]
                     },
                     {
                         "id": 2,
                         "text": "How concerned are you about false positives?",
                         "options": [
-                            "Very Concerned",
-                            "Somewhat Concerned",
-                            "Not Concerned"
+                            { "label": "Very Concerned", "votes": 80 },
+                            { "label": "Somewhat Concerned", "votes": 70 },
+                            { "label": "Not Concerned", "votes": 35 }
                         ]
                     },
                     {
                         "id": 3,
                         "text": "What should be prioritized for improvement?",
                         "options": [
-                            "Transparency",
-                            "Accuracy",
-                            "Appeal Process",
-                            "Speed"
+                            { "label": "Transparency", "votes": 60 },
+                            { "label": "Accuracy", "votes": 90 },
+                            { "label": "Appeal Process", "votes": 55 },
+                            { "label": "Speed", "votes": 35 }
                         ]
                     }
                 ],
@@ -65,8 +69,8 @@
                 "title": "Decentralized Content Storage Proposal",
                 "author": {
                     "id": 1,
-                    "name": "Amitav Roy",
-                    "role": "Super Admin"
+                    "name": "Raunak Manna",
+                    "role": "Admin"
                 },
                 "description": "This proposal suggests moving content storage to a decentralized architecture to improve redundancy, privacy, and censorship resistance.",
                 "status": "draft",
@@ -83,19 +87,19 @@
                         "id": 1,
                         "text": "Is decentralized storage a priority for the organization?",
                         "options": [
-                            "High Priority",
-                            "Medium Priority",
-                            "Low Priority"
+                            { "label": "High Priority", "votes": 58 },
+                            { "label": "Medium Priority", "votes": 30 },
+                            { "label": "Low Priority", "votes": 12 }
                         ]
                     },
                     {
                         "id": 2,
                         "text": "What concerns you most?",
                         "options": [
-                            "Cost",
-                            "Complexity",
-                            "Security",
-                            "Performance"
+                            { "label": "Cost", "votes": 20 },
+                            { "label": "Complexity", "votes": 18 },
+                            { "label": "Security", "votes": 45 },
+                            { "label": "Performance", "votes": 17 }
                         ]
                     }
                 ],
@@ -123,8 +127,8 @@
                 "title": "User Management Automation Draft",
                 "author": {
                     "id": 1,
-                    "name": "Amitav Roy",
-                    "role": "Super Admin"
+                    "name": "Raunak Manna",
+                    "role": "Admin"
                 },
                 "description": "This draft proposes automating onboarding, role assignments, and access control for new users, reducing manual work for admins.",
                 "status": "approved",
@@ -140,16 +144,20 @@
                     {
                         "id": 1,
                         "text": "Is automation beneficial for user management?",
-                        "options": ["Yes", "No", "Partially"]
+                        "options": [
+                            { "label": "Yes", "votes": 150 },
+                            { "label": "No", "votes": 10 },
+                            { "label": "Partially", "votes": 27 }
+                        ]
                     },
                     {
                         "id": 2,
                         "text": "Which area should be automated first?",
                         "options": [
-                            "Onboarding",
-                            "Role Assignment",
-                            "Access Control",
-                            "Deactivation"
+                            { "label": "Onboarding", "votes": 60 },
+                            { "label": "Role Assignment", "votes": 50 },
+                            { "label": "Access Control", "votes": 40 },
+                            { "label": "Deactivation", "votes": 37 }
                         ]
                     }
                 ],
@@ -177,8 +185,8 @@
                 "title": "Content Workflow Streamlining Proposal",
                 "author": {
                     "id": 1,
-                    "name": "Amitav Roy",
-                    "role": "Super Admin"
+                    "name": "Raunak Manna",
+                    "role": "Admin"
                 },
                 "description": "This proposal suggests merging the 'draft' and 'review' stages into one unified stage to reduce delays in publishing user-generated content.",
                 "status": "in_review",
@@ -194,16 +202,20 @@
                     {
                         "id": 1,
                         "text": "Would merging stages improve efficiency?",
-                        "options": ["Yes", "No", "Neutral"]
+                        "options": [
+                            { "label": "Yes", "votes": 90 },
+                            { "label": "No", "votes": 20 },
+                            { "label": "Neutral", "votes": 29 }
+                        ]
                     },
                     {
                         "id": 2,
                         "text": "What risk should we mitigate?",
                         "options": [
-                            "Quality Drop",
-                            "Reviewer Fatigue",
-                            "Missed Issues",
-                            "None"
+                            { "label": "Quality Drop", "votes": 40 },
+                            { "label": "Reviewer Fatigue", "votes": 30 },
+                            { "label": "Missed Issues", "votes": 50 },
+                            { "label": "None", "votes": 19 }
                         ]
                     }
                 ],
@@ -231,8 +243,8 @@
                 "title": "Moderator Training Curriculum Draft",
                 "author": {
                     "id": 1,
-                    "name": "Amitav Roy",
-                    "role": "Super Admin"
+                    "name": "Raunak Manna",
+                    "role": "Admin"
                 },
                 "description": "This draft outlines a structured training program for new moderators, covering community guidelines, conflict resolution, and escalation protocols.",
                 "status": "draft",
@@ -248,16 +260,20 @@
                     {
                         "id": 1,
                         "text": "Is a structured training program necessary?",
-                        "options": ["Yes", "No", "Maybe"]
+                        "options": [
+                            { "label": "Yes", "votes": 50 },
+                            { "label": "No", "votes": 10 },
+                            { "label": "Maybe", "votes": 18 }
+                        ]
                     },
                     {
                         "id": 2,
                         "text": "Which module should be emphasized?",
                         "options": [
-                            "Community Guidelines",
-                            "Conflict Resolution",
-                            "Escalation Protocols",
-                            "Case Studies"
+                            { "label": "Community Guidelines", "votes": 20 },
+                            { "label": "Conflict Resolution", "votes": 25 },
+                            { "label": "Escalation Protocols", "votes": 18 },
+                            { "label": "Case Studies", "votes": 15 }
                         ]
                     }
                 ],
@@ -285,8 +301,8 @@
                 "title": "Content Quality Scoring Framework",
                 "author": {
                     "id": 1,
-                    "name": "Amitav Roy",
-                    "role": "Super Admin"
+                    "name": "Raunak Manna",
+                    "role": "Admin"
                 },
                 "description": "This draft introduces a scoring system to rate user-submitted content based on relevance, clarity, and community engagement potential.",
                 "status": "draft",
@@ -302,16 +318,20 @@
                     {
                         "id": 1,
                         "text": "Should scoring be visible to all users?",
-                        "options": ["Yes", "No", "Partially (Only Authors)"]
+                        "options": [
+                            { "label": "Yes", "votes": 25 },
+                            { "label": "No", "votes": 20 },
+                            { "label": "Partially (Only Authors)", "votes": 15 }
+                        ]
                     },
                     {
                         "id": 2,
                         "text": "Which criteria should weigh most?",
                         "options": [
-                            "Relevance",
-                            "Clarity",
-                            "Engagement",
-                            "Originality"
+                            { "label": "Relevance", "votes": 18 },
+                            { "label": "Clarity", "votes": 15 },
+                            { "label": "Engagement", "votes": 17 },
+                            { "label": "Originality", "votes": 10 }
                         ]
                     }
                 ],

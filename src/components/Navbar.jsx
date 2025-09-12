@@ -1,11 +1,17 @@
 import React from "react";
 import { UserRound, PenLine } from "lucide-react";
-import { Link, Links, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import stakeholderData from "@/data/stakeholder.json";
+import adminData from "@/data/admin.json";
 
 const Navbar = () => {
     const location = useLocation();
-    const stakeholder = stakeholderData;
+
+    // Determine which data to use based on the route
+    let stakeholder = stakeholderData;
+    if (location.pathname.startsWith("/dashboard-admin")) {
+        stakeholder = adminData;
+    }
 
     // Show create button only on admin dashboard routes
     const showCreateButton = location.pathname.startsWith("/dashboard-admin");

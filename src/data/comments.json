@@ -30,6 +30,20 @@
                     "author_id": 4,
                     "timestamp": "2025-09-12T14:42:10.334823Z",
                     "text": "Good flow, but the conclusion still needs a stronger call to action."
+                },
+                {
+                    "comment_id": "21-5",
+                    "author": "User 5",
+                    "author_id": 5,
+                    "timestamp": "2025-09-12T14:43:01.564932Z",
+                    "text": "Love the balanced approach between automation and human review — that's crucial."
+                },
+                {
+                    "comment_id": "21-6",
+                    "author": "User 6",
+                    "author_id": 6,
+                    "timestamp": "2025-09-12T14:43:42.889011Z",
+                    "text": "Might want to add a short paragraph on how appeals will work."
                 }
             ]
         },
@@ -63,6 +77,20 @@
                     "author_id": 4,
                     "timestamp": "2025-09-12T14:37:33.882313Z",
                     "text": "Not bad, but still missing that hook at the start."
+                },
+                {
+                    "comment_id": "20-5",
+                    "author": "User 5",
+                    "author_id": 5,
+                    "timestamp": "2025-09-12T14:38:10.554031Z",
+                    "text": "Security concerns are valid — maybe mention end-to-end encryption."
+                },
+                {
+                    "comment_id": "20-6",
+                    "author": "User 6",
+                    "author_id": 6,
+                    "timestamp": "2025-09-12T14:38:50.991432Z",
+                    "text": "Would be great to show a simple diagram of how decentralized storage works."
                 }
             ]
         },
@@ -96,6 +124,20 @@
                     "author_id": 4,
                     "timestamp": "2025-09-12T14:30:22.981234Z",
                     "text": "Still feels like you're repeating the same point twice."
+                },
+                {
+                    "comment_id": "19-5",
+                    "author": "User 5",
+                    "author_id": 5,
+                    "timestamp": "2025-09-12T14:31:02.774431Z",
+                    "text": "This could use an example workflow diagram to clarify automation steps."
+                },
+                {
+                    "comment_id": "19-6",
+                    "author": "User 6",
+                    "author_id": 6,
+                    "timestamp": "2025-09-12T14:31:40.112989Z",
+                    "text": "Love that you added deactivation to the automation scope."
                 }
             ]
         },
@@ -129,6 +171,20 @@
                     "author_id": 4,
                     "timestamp": "2025-09-12T14:24:30.874302Z",
                     "text": "The last line feels abrupt — maybe soften it a bit."
+                },
+                {
+                    "comment_id": "18-5",
+                    "author": "User 5",
+                    "author_id": 5,
+                    "timestamp": "2025-09-12T14:25:12.994320Z",
+                    "text": "Combining stages is smart, but add a note about risk mitigation."
+                },
+                {
+                    "comment_id": "18-6",
+                    "author": "User 6",
+                    "author_id": 6,
+                    "timestamp": "2025-09-12T14:25:55.331231Z",
+                    "text": "Maybe include a before/after diagram to show how workflow changes."
                 }
             ]
         }

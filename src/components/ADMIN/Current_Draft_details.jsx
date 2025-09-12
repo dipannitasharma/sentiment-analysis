@@ -116,32 +116,6 @@ const DraftDetails = ({ id: propId }) => {
                     </div>
                 </div>
 
-                {/* Questions Section */}
-                {draft.questions?.length > 0 && (
-                    <div className="rounded-xl border bg-white p-4 shadow-sm">
-                        <h2 className="text-lg font-bold mb-2 text-blue-700">
-                            Questions
-                        </h2>
-                        <ul className="list-disc list-inside space-y-3">
-                            {draft.questions.map((q) => (
-                                <li key={q.id}>
-                                    <p className="font-semibold">{q.text}</p>
-                                    <div className="flex gap-2 mt-1 flex-wrap">
-                                        {q.options.map((option, idx) => (
-                                            <span
-                                                key={idx}
-                                                className="bg-gray-100 border px-2 py-1 rounded-md text-xs"
-                                            >
-                                                {option}
-                                            </span>
-                                        ))}
-                                    </div>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                )}
-
                 {/* AI Analysis Section */}
                 {aiData && (
                     <div className="rounded-xl border bg-white p-4 shadow-sm">
@@ -202,6 +176,76 @@ const DraftDetails = ({ id: propId }) => {
                                 </div>
                             )}
                         </div>
+                    </div>
+                )}
+
+                {/* Questions Section */}
+                {draft.questions?.length > 0 && (
+                    <div className="rounded-xl border bg-white p-4 shadow-sm">
+                        <h2 className="text-lg font-bold mb-2 text-blue-700">
+                            Questions
+                        </h2>
+                        <ul className="space-y-4">
+                            {draft.questions.map((q) => {
+                                // Calculate total votes
+                                const totalVotes = q.options.reduce(
+                                    (sum, opt) => sum + (opt.votes || 0),
+                                    0
+                                );
+
+                                return (
+                                    <li key={q.id}>
+                                        <p className="font-semibold mb-2">
+                                            {q.text}
+                                        </p>
+                                        <div className="space-y-2">
+                                            {q.options.map((option, idx) => {
+                                                const percentage = totalVotes
+                                                    ? Math.round(
+                                                          (option.votes /
+                                                              totalVotes) *
+                                                              100
+                                                      )
+                                                    : 0;
+
+                                                return (
+                                                    <div
+                                                        key={idx}
+                                                        className="flex flex-col"
+                                                    >
+                                                        <div className="flex justify-between text-xs font-medium mb-1">
+                                                            <span>
+                                                                {option.label}
+                                                            </span>
+                                                            <span>
+                                                                {percentage}%
+                                                            </span>
+                                                        </div>
+                                                        <div className="w-full bg-gray-200 rounded-full h-2">
+                                                            <div
+                                                                className={`h-2 rounded-full transition-all duration-300 ${
+                                                                    idx % 3 ===
+                                                                    0
+                                                                        ? "bg-blue-500"
+                                                                        : idx %
+                                                                              3 ===
+                                                                          1
+                                                                        ? "bg-green-500"
+                                                                        : "bg-purple-500"
+                                                                }`}
+                                                                style={{
+                                                                    width: `${percentage}%`,
+                                                                }}
+                                                            ></div>
+                                                        </div>
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+                                    </li>
+                                );
+                            })}
+                        </ul>
                     </div>
                 )}
 
