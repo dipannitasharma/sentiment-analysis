@@ -48,12 +48,12 @@ const Current_Draft = ({
 
                 {/* Action button */}
                 <div className="flex justify-center">
-                    {/* <Link to="/dashboard-admin/:slug"
-                        className="w-full flex justify-center"> */}
+                    <Link to="/dashboard-admin/:slug"
+                        className="w-full flex justify-center">
                         <button className="flex items-center w-[80%] justify-center gap-2 rounded-md bg-[#42a146] px-4 py-2 font-bold text-white hover:bg-[#368838] transition">
                             Check Out <ChevronRight size={18} />
                         </button>
-                    {/* </Link> */}
+                    </Link>
                 </div>
             </div>
         </div>
