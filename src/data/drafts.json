@@ -20,9 +20,38 @@
                 "upvotes": 98,
                 "downvotes": 12,
                 "comments_count": 22,
-                "links": {
-                    "detail_page": "/dashboard-user/national-cybersecurity-strategy-2025"
-                }
+                "questions": [
+                    {
+                        "id": 1,
+                        "text": "How clear is the draft?",
+                        "options": ["Very Clear", "Somewhat Clear", "Unclear"]
+                    },
+                    {
+                        "id": 2,
+                        "text": "Do you support this draft?",
+                        "options": ["Yes", "No", "Neutral"]
+                    },
+                    {
+                        "id": 3,
+                        "text": "How important is this draft to you?",
+                        "options": ["High", "Medium", "Low"]
+                    },
+                    {
+                        "id": 4,
+                        "text": "Are the proposed measures practical to implement?",
+                        "options": ["Yes", "No", "Unsure"]
+                    },
+                    {
+                        "id": 5,
+                        "text": "What area needs the most improvement?",
+                        "options": [
+                            "Breach Disclosure",
+                            "Collaboration Framework",
+                            "Incident Response",
+                            "Other"
+                        ]
+                    }
+                ]
             },
             {
                 "id": 4,
@@ -42,9 +71,38 @@
                 "upvotes": 210,
                 "downvotes": 5,
                 "comments_count": 40,
-                "links": {
-                    "detail_page": "/dashboard-user/green-tech-subsidy-policy"
-                }
+                "questions": [
+                    {
+                        "id": 1,
+                        "text": "How clear is the draft?",
+                        "options": ["Very Clear", "Somewhat Clear", "Unclear"]
+                    },
+                    {
+                        "id": 2,
+                        "text": "Do you support this draft?",
+                        "options": ["Yes", "No", "Neutral"]
+                    },
+                    {
+                        "id": 3,
+                        "text": "How important is this draft to you?",
+                        "options": ["High", "Medium", "Low"]
+                    },
+                    {
+                        "id": 4,
+                        "text": "Does this policy strike the right balance between economic growth and sustainability?",
+                        "options": ["Yes", "No", "Partially"]
+                    },
+                    {
+                        "id": 5,
+                        "text": "Which incentive should be prioritized?",
+                        "options": [
+                            "Tax Breaks",
+                            "Direct Subsidies",
+                            "Grants",
+                            "Other"
+                        ]
+                    }
+                ]
             },
             {
                 "id": 5,
@@ -64,9 +122,38 @@
                 "upvotes": 65,
                 "downvotes": 9,
                 "comments_count": 13,
-                "links": {
-                    "detail_page": "/dashboard-user/digital-healthcare-records-interoperability"
-                }
+                "questions": [
+                    {
+                        "id": 1,
+                        "text": "How clear is the draft?",
+                        "options": ["Very Clear", "Somewhat Clear", "Unclear"]
+                    },
+                    {
+                        "id": 2,
+                        "text": "Do you support this draft?",
+                        "options": ["Yes", "No", "Neutral"]
+                    },
+                    {
+                        "id": 3,
+                        "text": "How important is this draft to you?",
+                        "options": ["High", "Medium", "Low"]
+                    },
+                    {
+                        "id": 4,
+                        "text": "Does the draft adequately protect patient privacy?",
+                        "options": ["Yes", "No", "Needs Improvement"]
+                    },
+                    {
+                        "id": 5,
+                        "text": "What is the biggest challenge to implementation?",
+                        "options": [
+                            "Technical",
+                            "Regulatory",
+                            "Financial",
+                            "Adoption by Providers"
+                        ]
+                    }
+                ]
             },
             {
                 "id": 6,
@@ -86,9 +173,38 @@
                 "upvotes": 142,
                 "downvotes": 4,
                 "comments_count": 19,
-                "links": {
-                    "detail_page": "/dashboard-user/national-edtech-guidelines"
-                }
+                "questions": [
+                    {
+                        "id": 1,
+                        "text": "How clear is the draft?",
+                        "options": ["Very Clear", "Somewhat Clear", "Unclear"]
+                    },
+                    {
+                        "id": 2,
+                        "text": "Do you support this draft?",
+                        "options": ["Yes", "No", "Neutral"]
+                    },
+                    {
+                        "id": 3,
+                        "text": "How important is this draft to you?",
+                        "options": ["High", "Medium", "Low"]
+                    },
+                    {
+                        "id": 4,
+                        "text": "Does it address equity in digital access sufficiently?",
+                        "options": ["Yes", "No", "Partially"]
+                    },
+                    {
+                        "id": 5,
+                        "text": "Which area should be prioritized?",
+                        "options": [
+                            "Data Privacy",
+                            "Teacher Training",
+                            "Tech Infrastructure",
+                            "Content Quality"
+                        ]
+                    }
+                ]
             },
             {
                 "id": 7,
@@ -108,9 +224,140 @@
                 "upvotes": 88,
                 "downvotes": 11,
                 "comments_count": 8,
-                "links": {
-                    "detail_page": "/dashboard-user/public-transportation-electrification"
-                }
+                "questions": [
+                    {
+                        "id": 1,
+                        "text": "How clear is the draft?",
+                        "options": ["Very Clear", "Somewhat Clear", "Unclear"]
+                    },
+                    {
+                        "id": 2,
+                        "text": "Do you support this draft?",
+                        "options": ["Yes", "No", "Neutral"]
+                    },
+                    {
+                        "id": 3,
+                        "text": "How important is this draft to you?",
+                        "options": ["High", "Medium", "Low"]
+                    },
+                    {
+                        "id": 4,
+                        "text": "Is the timeline for electrification realistic?",
+                        "options": ["Yes", "No", "Needs Adjustment"]
+                    },
+                    {
+                        "id": 5,
+                        "text": "What should be prioritized?",
+                        "options": [
+                            "Charging Infrastructure",
+                            "Fleet Procurement",
+                            "Funding Models",
+                            "Policy Incentives"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "title": "AI Governance and Regulation Framework Draft",
+                "author": {
+                    "id": 108,
+                    "name": "Dr. Amir Hassan",
+                    "role": "AI Ethics Researcher"
+                },
+                "description": "This draft proposes guidelines for AI development, focusing on transparency, accountability, bias mitigation, and risk management for high-impact systems.",
+                "status": "in_review",
+                "tags": ["AI", "ethics", "regulation"],
+                "version": 1,
+                "created_at": "2025-08-10T10:30:00Z",
+                "updated_at": "2025-09-10T15:45:00Z",
+                "review_deadline": "2025-09-28T23:59:59Z",
+                "upvotes": 172,
+                "downvotes": 20,
+                "comments_count": 33,
+                "questions": [
+                    {
+                        "id": 1,
+                        "text": "How clear is the draft?",
+                        "options": ["Very Clear", "Somewhat Clear", "Unclear"]
+                    },
+                    {
+                        "id": 2,
+                        "text": "Do you support this draft?",
+                        "options": ["Yes", "No", "Neutral"]
+                    },
+                    {
+                        "id": 3,
+                        "text": "How important is this draft to you?",
+                        "options": ["High", "Medium", "Low"]
+                    },
+                    {
+                        "id": 4,
+                        "text": "Does it adequately address AI bias concerns?",
+                        "options": ["Yes", "No", "Partially"]
+                    },
+                    {
+                        "id": 5,
+                        "text": "Which principle should take highest priority?",
+                        "options": [
+                            "Transparency",
+                            "Accountability",
+                            "Safety",
+                            "Innovation Freedom"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "title": "National Climate Adaptation Plan Draft",
+                "author": {
+                    "id": 109,
+                    "name": "Elena Rodríguez",
+                    "role": "Climate Resilience Specialist"
+                },
+                "description": "This draft lays out a 10-year plan to adapt infrastructure, agriculture, and disaster preparedness systems to climate change impacts.",
+                "status": "draft",
+                "tags": ["climate", "resilience", "policy"],
+                "version": 1,
+                "created_at": "2025-07-30T08:15:00Z",
+                "updated_at": "2025-09-06T17:40:00Z",
+                "review_deadline": "2025-10-05T23:59:59Z",
+                "upvotes": 130,
+                "downvotes": 15,
+                "comments_count": 27,
+                "questions": [
+                    {
+                        "id": 1,
+                        "text": "How clear is the draft?",
+                        "options": ["Very Clear", "Somewhat Clear", "Unclear"]
+                    },
+                    {
+                        "id": 2,
+                        "text": "Do you support this draft?",
+                        "options": ["Yes", "No", "Neutral"]
+                    },
+                    {
+                        "id": 3,
+                        "text": "How important is this draft to you?",
+                        "options": ["High", "Medium", "Low"]
+                    },
+                    {
+                        "id": 4,
+                        "text": "Are the adaptation measures adequate?",
+                        "options": ["Yes", "No", "Needs Strengthening"]
+                    },
+                    {
+                        "id": 5,
+                        "text": "Which sector should get top priority?",
+                        "options": [
+                            "Infrastructure",
+                            "Agriculture",
+                            "Disaster Preparedness",
+                            "Public Health"
+                        ]
+                    }
+                ]
             }
         ]
     }
