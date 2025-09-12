@@ -49,7 +49,7 @@ const LatestDraft = ({
                 {/* Action button */}
                 <div className="flex justify-center">
                     <Link to="/dashboard-user/:slug">
-                        <button className="flex items-center w-[80%] justify-center gap-2 rounded-md bg-[#42a146] px-4 py-2 font-bold text-white hover:bg-[#368838] transition">
+                        <button className="flex items-center w-full justify-center gap-2 rounded-md bg-[#42a146] px-4 py-2 font-bold text-white hover:bg-[#368838] transition">
                             Check Out <ChevronRight size={18} />
                         </button>
                     </Link>

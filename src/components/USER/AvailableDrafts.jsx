@@ -1,5 +1,6 @@
 import React from "react";
 import User_Draft from "./User_Draft";
+import { Funnel } from "lucide-react";
 
 const AvailableDrafts = () => {
     const drafts = [
@@ -68,10 +69,14 @@ const AvailableDrafts = () => {
     return (
         <div className="flex h-screen flex-col">
             {/* Header fixed at top */}
-            <h1 className="ml-5 mb-3 font-black text-2xl uppercase text-[#2b6bf6]">
-                Available Drafts
-            </h1>
+            <div >
+                <h1 className="ml-5 mb-3 font-black text-2xl uppercase text-[#2b6bf6]">
+                    Available Drafts
+                </h1>
+                <Funnel />
 
+
+            </div>
             {/* Scrollable drafts area */}
             <div className="flex-1 overflow-y-auto pr-2">
                 <div className="flex flex-col gap-3">
