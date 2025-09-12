@@ -32,6 +32,7 @@ const DraftDetails = ({ id: propId }) => {
 
     const isDone = draft.status === "approved";
     const aiData = draft.ai_analysis;
+    const wordcloudData = aiData?.wordcloud || [];
 
     return (
         <div className="w-full">
@@ -175,6 +176,31 @@ const DraftDetails = ({ id: propId }) => {
                                     </p>
                                 </div>
                             )}
+                        </div>
+                    </div>
+                )}
+
+                {/* Word Cloud Section */}
+                {wordcloudData.length > 0 && (
+                    <div className="rounded-xl border bg-white p-4 shadow-sm">
+                        <h2 className="text-lg font-bold flex items-center gap-2 text-blue-700 mb-2">
+                            <BarChart3 size={18} /> Word Cloud
+                        </h2>
+                        <div className="flex flex-wrap gap-2">
+                            {wordcloudData.map((item, idx) => (
+                                <span
+                                    key={idx}
+                                    style={{
+                                        fontSize: `${Math.min(
+                                            Math.max(item.weight, 10),
+                                            30
+                                        )}px`,
+                                    }}
+                                    className="bg-gray-100 px-2 py-1 rounded"
+                                >
+                                    {item.word}
+                                </span>
+                            ))}
                         </div>
                     </div>
                 )}

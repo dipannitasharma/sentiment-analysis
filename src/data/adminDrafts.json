@@ -61,7 +61,15 @@
                         "support_trend": [72, 75, 80, 84],
                         "false_positive_concerns": [65, 63, 58, 53],
                         "engagement_growth": [20, 28, 35, 42]
-                    }
+                    },
+                    "wordcloud": [
+                        { "word": "transparency", "weight": 15 },
+                        { "word": "accuracy", "weight": 12 },
+                        { "word": "appeal", "weight": 10 },
+                        { "word": "automation", "weight": 9 },
+                        { "word": "moderation", "weight": 8 },
+                        { "word": "false positive", "weight": 7 }
+                    ]
                 }
             },
             {
@@ -119,7 +127,15 @@
                             "Performance": 17
                         },
                         "engagement_growth": [10, 12, 15, 16]
-                    }
+                    },
+                    "wordcloud": [
+                        { "word": "transparency", "weight": 15 },
+                        { "word": "accuracy", "weight": 12 },
+                        { "word": "appeal", "weight": 10 },
+                        { "word": "automation", "weight": 9 },
+                        { "word": "moderation", "weight": 8 },
+                        { "word": "false positive", "weight": 7 }
+                    ]
                 }
             },
             {
@@ -177,7 +193,15 @@
                             "Performance": 17
                         },
                         "engagement_growth": [10, 12, 15, 16]
-                    }
+                    },
+                    "wordcloud": [
+                        { "word": "transparency", "weight": 15 },
+                        { "word": "accuracy", "weight": 12 },
+                        { "word": "appeal", "weight": 10 },
+                        { "word": "automation", "weight": 9 },
+                        { "word": "moderation", "weight": 8 },
+                        { "word": "false positive", "weight": 7 }
+                    ]
                 }
             },
             {
@@ -235,7 +259,15 @@
                             "Performance": 17
                         },
                         "engagement_growth": [10, 12, 15, 16]
-                    }
+                    },
+                    "wordcloud": [
+                        { "word": "transparency", "weight": 15 },
+                        { "word": "accuracy", "weight": 12 },
+                        { "word": "appeal", "weight": 10 },
+                        { "word": "automation", "weight": 9 },
+                        { "word": "moderation", "weight": 8 },
+                        { "word": "false positive", "weight": 7 }
+                    ]
                 }
             },
             {
@@ -293,7 +325,15 @@
                             "Performance": 17
                         },
                         "engagement_growth": [10, 12, 15, 16]
-                    }
+                    },
+                    "wordcloud": [
+                        { "word": "transparency", "weight": 15 },
+                        { "word": "accuracy", "weight": 12 },
+                        { "word": "appeal", "weight": 10 },
+                        { "word": "automation", "weight": 9 },
+                        { "word": "moderation", "weight": 8 },
+                        { "word": "false positive", "weight": 7 }
+                    ]
                 }
             },
             {
@@ -351,7 +391,15 @@
                             "Performance": 17
                         },
                         "engagement_growth": [10, 12, 15, 16]
-                    }
+                    },
+                    "wordcloud": [
+                        { "word": "transparency", "weight": 15 },
+                        { "word": "accuracy", "weight": 12 },
+                        { "word": "appeal", "weight": 10 },
+                        { "word": "automation", "weight": 9 },
+                        { "word": "moderation", "weight": 8 },
+                        { "word": "false positive", "weight": 7 }
+                    ]
                 }
             }
         ]
