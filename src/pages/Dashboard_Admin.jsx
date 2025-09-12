@@ -6,6 +6,7 @@ import React from 'react'
 const Dashboard_Admin = () => {
     return (
         <div className='grid grid-cols-2 gap-4 h-fit'>
+            
             <Current_Draft />
             <Your_Draft />
         </div>

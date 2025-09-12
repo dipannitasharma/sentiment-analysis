@@ -6,14 +6,17 @@ import CommentExplorer from "./pages/CommentExplorer";
 import Dashboard_Admin from "./pages/Dashboard_Admin";
 import CommentUploader from "./pages/CommentUploader";
 import CreateNewDraft from "./pages/CreateNewDraft";
+import  Home from "./components/Home";
 
 export default function App() {
     return (
         <Router>
             <div className="font-poppins">
                 <Navbar />
+                {/* <Home /> */}
                 <div className="px-20 py-10">
                     <Routes>
+                        <Route path="/" element={<Home />} />
                         <Route
                             path="/dashboard-admin"
                             element={<Dashboard_Admin />}
