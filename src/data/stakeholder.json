@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "name": "Dipannita Sharma",
+    "role": "Project Stakeholder",
+    "age": 42,
+    "dob": "1982-03-15",
+    "email": "johndoe@example.com",
+    "phone": "+1-555-123-4567",
+    "organization": "Acme Corp",
+    "department": "Product Management",
+    "address": {
+        "street": "123 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105",
+        "country": "USA"
+    },
+    "interests": [
+        "Product Development",
+        "Market Analysis",
+        "Customer Feedback"
+    ],
+    "stakeholderType": "Internal",
+    "influenceLevel": "High",
+    "engagementLevel": "Active",
+    "notes": "Key decision maker for project milestones."
+}

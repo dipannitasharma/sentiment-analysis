@@ -1,70 +1,26 @@
-import React from "react";
+import React, { useMemo } from "react";
 import User_Draft from "./User_Draft";
+<<<<<<< HEAD
 import { Funnel } from "lucide-react";
+=======
+import draftsData from "@/data/drafts.json";
+>>>>>>> 22582f54a350c1211defe1fe9e8b6b457cd95347
 
 const AvailableDrafts = () => {
-    const drafts = [
-        {
-            title: "Digital Data Protection and Privacy Bill, 2025",
-            description:
-                "Guidelines for secure collection and storage of personal data with user consent and strict penalties for misuse.",
-            done: true,
-        },
-        {
-            title: "Corporate Transparency Act, 2025",
-            description:
-                "Aims to improve disclosure requirements for companies and increase accountability of directors and auditors.",
-            done: false,
-        },
-        {
-            title: "Green Business Incentive Policy, 2025",
-            description:
-                "Encourages sustainable practices by offering tax benefits to eco-friendly companies adopting renewable energy.",
-            done: true,
-        },
-        {
-            title: "Cybersecurity and Digital Safety Bill, 2025",
-            description:
-                "Focuses on cybercrime prevention, stronger security compliance, and protection of digital infrastructures.",
-            done: false,
-        },
-        {
-            title: "Startup Innovation Promotion Act, 2025",
-            description:
-                "Provides funding support, tax relief, and ease of regulations to encourage startups and entrepreneurs.",
-            done: true,
-        },
-        {
-            title: "National AI Ethics Framework Bill, 2025",
-            description:
-                "Seeks to establish ethical standards for AI development and deployment, ensuring fairness, transparency, and accountability.",
-            done: false,
-        },
-        {
-            title: "Climate Resilience and Adaptation Act, 2025",
-            description:
-                "Introduces measures to strengthen disaster preparedness, promote green infrastructure, and support vulnerable communities.",
-            done: true,
-        },
-        {
-            title: "Digital Education Enhancement Policy, 2025",
-            description:
-                "Aims to modernize the education system with online platforms, digital libraries, and equitable access to technology.",
-            done: false,
-        },
-        {
-            title: "Renewable Energy Transition Act, 2025",
-            description:
-                "Mandates increased investment in solar, wind, and hydropower, targeting 50% renewable energy by 2035.",
-            done: true,
-        },
-        {
-            title: "Financial Fraud Prevention and Accountability Bill, 2025",
-            description:
-                "Focuses on stricter monitoring of financial institutions, mandatory audits, and enhanced penalties for fraud.",
-            done: false,
-        },
-    ];
+    // Same filtering logic as LatestDraft to stay consistent
+    const drafts = useMemo(() => {
+        return (draftsData?.data?.drafts || [])
+            .filter((d) => d.status !== "approved" && d.status !== "done")
+            .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+    }, []);
+
+    if (drafts.length === 0) {
+        return (
+            <p className="text-center text-gray-500 mt-4">
+                No drafts available
+            </p>
+        );
+    }
 
     return (
         <div className="flex h-screen flex-col">
@@ -75,17 +31,29 @@ const AvailableDrafts = () => {
                 </h1>
                 <Funnel />
 
+<<<<<<< HEAD
 
             </div>
             {/* Scrollable drafts area */}
+=======
+            {/* Scrollable list */}
+>>>>>>> 22582f54a350c1211defe1fe9e8b6b457cd95347
             <div className="flex-1 overflow-y-auto pr-2">
-                <div className="flex flex-col gap-3">
-                    {drafts.map((draft, index) => (
+                <div className="flex flex-col gap-2">
+                    {drafts.map((draft) => (
                         <User_Draft
-                            key={index}
+                            key={draft.id}
                             title={draft.title}
                             description={draft.description}
-                            done={draft.done}
+                            author={draft.author}
+                            tags={draft.tags}
+                            version={draft.version}
+                            updatedAt={draft.updated_at}
+                            status={draft.status}
+                            upvotes={draft.upvotes}
+                            downvotes={draft.downvotes}
+                            comments={draft.comments_count}
+                            id={draft.id}
                         />
                     ))}
                 </div>

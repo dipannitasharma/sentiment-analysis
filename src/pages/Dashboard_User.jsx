@@ -5,11 +5,11 @@ import React from 'react'
 
 const Dashboard_User = () => {
   return (
-    <div className='grid grid-cols-2 gap-4 h-fit'>
+    <div className='grid grid-cols-2 gap-1 h-fit'>
       <AvailableDrafts />
       <LatestDraft />
     </div>
-    
+
   )
 }
 
